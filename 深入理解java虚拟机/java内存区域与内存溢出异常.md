@@ -72,3 +72,7 @@ HotSpot 主要使用第二种方法。
   ![](https://img-blog.csdnimg.cn/20200616095521419.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzY5MTcyMw==,size_16,color_FFFFFF,t_70)
 * **使用直接指针访问** 直接指针访问的最大好处是速度快，节省了一次指针定位的时间开销。如果是对象频繁 GC 那么句柄方法好，如果是对象频繁访问则直接指针访问好。
  ![](https://img-blog.csdnimg.cn/20200616095615216.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzY5MTcyMw==,size_16,color_FFFFFF,t_70)
+
+ ## 参考文献
+ https://blog.csdn.net/weixin_43691723/article/details/106771107
+ https://blog.csdn.net/weixin_43691723/article/details/106771107
