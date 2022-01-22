@@ -1,7 +1,7 @@
 # java内存区域与内存溢出异常
 
 ## 运行时数据区域
-![neicun](fig/neicun.png)
+![neicun](https://img-blog.csdnimg.cn/202006152055329.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzY5MTcyMw==,size_16,color_FFFFFF,t_70#pic_center)
 
 ### 程序计数器
    程序计数器是一块较小的内存空间，可以看作是当前线程所执行的字节码的行号指示器。线程私有
